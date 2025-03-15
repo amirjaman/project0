@@ -1,0 +1,47 @@
+.article {
+  height: fit-content;
+  width: 100vw;
+  color: #232129;
+  font-family: "-apple-system, Roboto, sans-serif, serif";
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.article__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.article__item {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  width: calc(33.333% - 2rem);
+  box-sizing: border-box;
+}
+
+.article__title {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.article__description {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.article__date {
+  font-size: 0.875rem;
+  color: #555;
+}
+
+.article__link {
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.article__link:hover {
+  text-decoration: underline;
+}

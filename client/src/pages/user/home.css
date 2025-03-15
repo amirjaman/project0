@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.pageStyles {
+  height: fit-content;
+  width: 100vw;
+  color: #232129;
+  font-family: "-apple-system, Roboto, sans-serif, serif";
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}

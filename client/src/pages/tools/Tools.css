@@ -1,0 +1,44 @@
+.tools {
+  height: fit-content;
+  width: 100vw;
+  color: #232129;
+  font-family: "-apple-system, Roboto, sans-serif, serif";
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+
+.tools__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-left: 1rem;
+}
+
+.tools__item {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  width: calc(33.333% - 2rem);
+  box-sizing: border-box;
+}
+
+.tools__name {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.tools__description {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.tools__link {
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.tools__link:hover {
+  text-decoration: underline;
+}
